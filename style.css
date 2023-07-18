@@ -1,0 +1,343 @@
+.container .navbar-brand {
+    font-size: 45px;
+    color:orange;
+
+}
+.container .navbar-brand span{
+    font-size: 20px;
+    color: black;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.card2{
+    margin-bottom: 90px;
+}
+.nav-item a{
+    color: black;
+}
+.jyothii{
+    background-color: white;
+}
+.container{
+    position: relative;
+}
+.jo{
+    position: absolute;
+    right: 60%;
+    top: 25%;
+    color: black;
+}
+.jo h1{
+    font-weight: bold;
+    font-size: 80px;
+}
+.jo h2{
+    font-family: 'Dancing Script', cursive;
+    font-size:80px ;
+}
+button{
+    position: absolute;
+    left: 38%;
+    top:80%;
+  
+}
+.joo h1{
+    margin-top: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-menu a:hover{
+background-color: rgb(82, 88, 200);
+}
+.nav-item a:hover{
+color:white;
+}
+.card-body h5{
+    margin-left:10% 
+}
+
+
+.card-title span{
+    margin-left:20% ;
+}
+.card-body h6{
+    color: red;
+    margin-left:10% ;
+}
+#jijo{
+    margin-top: 1050px;
+    border-radius: 25px;
+    position: absolute;
+    left: 650px;
+}
+.card img{
+    padding: 8% 8% 0% 8%;
+}
+.jooo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#jija{
+    margin-bottom: 200px;
+}
+#jijo:hover{
+    background-color: red;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+
+    
+}
+/* .modal-body label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.modal-footer button{
+    margin-top: 72px;
+    margin-left:-10px;
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* CAROUSEL */
+.carousel-control-prev,
+.carousel-control-next{
+      bottom: 75%;
+      left: 85%;
+}
+.carousel-item{
+    height: 700px;
+ 
+} 
+.carousel-item img{
+    height: 700px;
+}
+.carousel-caption{
+    margin-bottom: 15%;
+
+}
+.carousel-caption h5{
+    font-weight: bold;
+    color: rgb(2, 2, 91);
+    font-size: 85px;
+    font-family: 'Noto Sans', sans-serif;
+        text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 1px 0 white, 1px 1px 0 white;
+
+}
+.carousel-caption button{
+    margin-top: 10px;
+}
+.j{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.jp{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.jj{
+    margin-left: 50px;
+}
+.la{
+  margin-left: 38%;
+  margin-top: 50px;
+}
+.cards{
+    border-radius: 19px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding:12px 19px;
+  cursor: pointer;
+  border: 1px solid rgb(170, 167, 167);
+}
+.cards img{
+    border-radius: 19px;
+ 
+}
+.cards1{
+    position: relative;
+}
+.card1{
+    
+    position: absolute;
+    top: 0px;
+    opacity: 0.8;
+    visibility: hidden;
+    background-color: black;
+    width: 100%;
+    height: 275px;
+    border-radius: 19px;
+    align-items: center;
+
+}
+.card1 h1{
+ font-size: 30px;
+ color: white;
+
+}
+
+.card1 button{
+    margin-top: -70px;
+    margin-left: -35px;
+    border-radius: 25px;
+    background-color: red;
+  
+}
+.card1 h3{
+       font-size: 15px;
+       color: black;
+}
+.card1 h3 span{
+   color: blue;
+}
+.card1 h1,h3{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 70px;
+}
+.cards1:hover .card1{
+    visibility: visible;
+    
+}
+.lath h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 42%;
+    margin-top: 25px;
+    color: red;
+
+}
+.card2 h5,a{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.card2 a{
+    text-decoration: none;
+    color: rgb(108, 4, 108);
+    font-weight:500;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.card2{
+    padding:5px 38px;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    background-color:rgb(253, 253, 245);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.card2 img{
+    border-radius: 90%;
+    
+
+}
+.kann img{
+    margin-top:-1px;
+   margin-left: 47%;
+}
+.kann h2{
+    font-family: 'Dancing Script', cursive;
+color:rgba(7, 7, 74, 0.934) ;
+margin-left: 43%;
+}
+.card-body1 h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prakash{
+    background-color:rgb(253, 253, 245);
+    margin-top: -50px;
+}
+footer{
+    background-color: rgb(4, 4, 42);
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foter li{
+    list-style: none;
+    margin-top: 10px;
+   
+}
+.aboutus{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+.same{
+    color: white;
+}
+.iconfooter .aboutus{
+    margin-top: -99px;
+    margin-left: 50px;
+}
+.icons{
+    /* icons same line il varaan */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;}
+
+.icon a{
+    color: white;
+    text-decoration:none ;
+    font-size: 40px;
+    margin-right: 40px;
+}
+.imgfooter h5{
+    color: white;
+    margin-left: 26px;
+}
+.copyright{
+    color: white;
+}
+footer{
+    margin-top:-10px;
+}
